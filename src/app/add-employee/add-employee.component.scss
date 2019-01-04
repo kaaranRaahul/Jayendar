@@ -1,0 +1,80 @@
+
+.ma{
+    border-style: solid;
+    border-radius: 12px;
+    margin-top: 60px;
+    margin-left: 450px;
+    width: 500px;
+    
+}
+
+#ctc{
+  text-align: center;
+}
+
+.t-align{
+  margin-left: 20px;
+}
+
+#add{
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 30px 300px 30px 570px;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+  
+}
+//.md{
+    
+    //width: 400px;
+    //height:700px;
+    //color:rgb(19, 16, 14);
+
+//}   
+
+input[type=text], input[type=password], input[type=email],input[type=tel] {
+    width: 75%;
+    padding: 15px;
+    margin: 27px  27px ;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+
+
+
+
+
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #4d94ff;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #595959;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }

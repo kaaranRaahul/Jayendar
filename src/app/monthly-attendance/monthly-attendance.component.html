@@ -1,0 +1,62 @@
+<div class="topnav">
+<a routerLink="/companyname">Home</a>
+</div>
+
+
+
+
+
+
+
+<div class="ma">
+    <h3 id="head">Monthly Attendance Setup</h3>
+<label id="name" class="t-align">Name Of The Company</label>
+<input type="text">
+
+<label for="" class="t-align">Branch:</label><br>
+<select>
+  <option>HR</option>
+  <option>Employee</option>
+  <option></option>
+  <option></option>
+</select>
+
+<label for="" class="t-align">Department:</label>
+<select>
+  <option></option>
+</select><br>
+
+<label for="" class="t-align">Month:</label><br>
+<select>
+  <option>Jan</option>
+  <option>Feb</option>
+  <option>Mar</option>
+  <option>Apr</option>
+  <option>May</option>
+  <option>Jun</option>
+  <option>Jul</option>
+  <option>Aug</option>
+  <option>Sep</option>
+  <option>Oct</option>
+  <option>Nov</option>
+  <option>Dec</option>
+</select><br>
+
+
+<label for="" class="t-align">Year:</label><br>
+<input type="text">
+
+</div>
+
+<button id="submit" (click)="onselect()">Submit</button>
+
+<table *ngIf="submit_access">
+  <tr>
+    <th>Date</th>
+    <th>Day</th>
+    <th>Status</th>
+    <th>Shift</th>
+    <th>Start Time</th>
+    <th>End Time</th>
+  </tr>
+</table>

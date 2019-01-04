@@ -1,0 +1,41 @@
+ <!--<p>Name of the Branch</p>-->
+ <label for="name">Name of the Branch:</label>
+ <input type="text" id="name" placeholder="Branch Name">
+ <label for="address">Address:</label>
+ <input type="text" id="address" placeholder="Address">
+
+ <h3>Contact Person<!--<p class="md">(Managing Director / Director / Owner)</p>--></h3>
+ <address>(HR / Admin)</address>
+ <label for="name">Name:</label>
+ <input type="text" id="name" placeholder="Name">
+            
+<label for="designation">Designation:</label>
+<input type="text" id="designation" placeholder="Designation">
+            
+<label for="address">Address:</label>
+<input type="text" id="address" placeholder="Address">
+            
+<label for="mobno">Mobile Number:</label>
+<input type="text" id="mobno" placeholder="Mobile Number">
+            
+<label for="email">Email:</label>
+<input type="email" id="email" placeholder="E-Mail">
+ <!--<address>enter ur address</address>-->
+
+
+<h3>Department Details</h3>
+
+<input type="text" #newTodo placeholder="Department"/>
+<button (click)="addTodo(newTodo.value); newTodo.value" >Add</button>
+<table style="margin-left: 35%" >
+  <tr>
+    <th><b>Department</b></th>
+    <th> </th>
+  </tr>
+  <tr *ngFor= "let todo of todos">
+    <td>{{todo.label}}</td>
+    <td>
+      <button (click) = "deleteTodo(todo)">Delete</button>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,64 @@
+<div class="topnav">  
+    <a routerLink="/companyname">Home</a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="ma">
+<h3 id="ctc">Machine Setup</h3>
+<label for="ms" class="t-align">Machine ID:</label>
+
+<select
+name="branch">
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+<option value=""></option>
+</select><br>
+
+<label for="" class="t-align">Number of Shifts in this Branch</label>
+<select name="number">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select>
+
+<button>Add</button>
+
+
+<h3 id="ctc">Shift</h3>
+
+<label for="" class="t-align">Start Time</label>
+<input type="text"><br>
+<label for="" class="t-align">End Time</label>
+<input type="text">
+
+</div>
+
+<input type="submit" name="Submit" id="submit" (click)="onselect()">
+
+<table *ngIf="submit_access">
+<tr>
+<th>Machine ID</th>
+<th>Branch</th>
+<th>Department</th>
+<th>Shift No</th>
+<th>Start Time</th>
+<th>End Time</th>
+</tr>
+</table>
