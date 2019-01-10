@@ -1,13 +1,39 @@
+.bg-img{
+  background: #80ffd4;
+}
+
 #ctc{
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  margin-top: 20px;
 }
 
 .ma{
-  border-style: solid;
+  //border-style: solid;
   border-radius: 12px;
   margin-top: 60px;
   margin-left: 450px;
   width: 500px;
+  background: white;
+}
+
+.Cp{
+  //border-style: solid;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-left: 450px;
+  width: 500px;
+  background: white;
+}
+
+.Cd{
+  //border-style: solid;
+  border-radius: 12px;
+  margin-top: 60px;
+  margin-left: 450px;
+  width: 500px;
+  background: white;
 }
 
 #continue{
@@ -15,7 +41,7 @@
   background-color: #4CAF50;
   color: white;
   padding: 14px 20px;
-  margin: 30px 300px 30px 570px;
+  margin: 30px 300px 30px 550px;
   border: none;
   cursor: pointer;
   width: 20%;
@@ -28,12 +54,13 @@ label{
 }
 
 input[type=text],input[type=password], input[type=email]{
-  width: 75%;
+  width: 30%;
   padding: 15px;
   margin: 27px  27px ;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  border-radius: 10px;
   }
 .md{
     font-size: 10px;
@@ -71,11 +98,13 @@ input[type=text],input[type=password], input[type=email]{
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
   }
   
   .topnav {
     overflow: hidden;
     background-color: #4d94ff;
+    opacity: 0;
   }
   
   .topnav a {
