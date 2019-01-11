@@ -1,4 +1,5 @@
 <form class="bg-img">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="topnav">
   <a routerLink="">Register</a>
   <a routerLink="">Login</a>
@@ -7,9 +8,11 @@
 
 <div id="login" text-center>
    <br><br><br><br><br> <h5 id="head">LOGIN</h5>
-  <input type="text" id="username" placeholder="Username" style="text-align:center">
+    <!--<i class="fa fa-user icon"></i>-->
+    <input type="text" id="username" placeholder="Username" style="text-align:center">
+    <!--<i class="fa fa-key icon"></i>-->
+    <input type="password" id="password" placeholder="Password" style="text-align:center">
   
-  <input type="password" id="password" placeholder="Password" style="text-align:center">
   <button type="submit" class="button" (click)="onselect()" >Submit</button> <br>
   <a class="register" routerLink="/register">SIGN UP</a>
 </div></form>

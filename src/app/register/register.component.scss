@@ -1,5 +1,7 @@
 .bg-img{
-  background: #80ffd4;
+  //background: #80ffd4;
+  background-image: linear-gradient(#99ddff,#e6e6e6);
+
 }
 
 #ctc{
@@ -16,6 +18,7 @@
   margin-left: 450px;
   width: 500px;
   background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Cp{
@@ -25,6 +28,7 @@
   margin-left: 450px;
   width: 500px;
   background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Cd{
@@ -34,6 +38,7 @@
   margin-left: 450px;
   width: 500px;
   background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #continue{
@@ -46,6 +51,8 @@
   cursor: pointer;
   width: 20%;
   opacity: 0.9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
 
 }
 
@@ -66,7 +73,9 @@ input[type=text],input[type=password], input[type=email]{
     font-size: 10px;
 }   
 
-
+input{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 
 
